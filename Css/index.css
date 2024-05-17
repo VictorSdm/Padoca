@@ -1,0 +1,15 @@
+html{
+    min-height: 100%;
+}
+body{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+}
+
+P{
+    text-align: justify;
+    text-indent: 30px;
+}
+

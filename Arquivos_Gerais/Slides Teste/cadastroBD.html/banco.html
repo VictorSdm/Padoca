@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    create table feirante(
+    cod_fornecedor int primary key,
+    nome varchar(200) not null
+    data_nascimento data not null
+    email varchar(200) unique
+    senha varchar(200) unique
+    numero varchar unique
+);
+
+
+create table barraca (
+    cod_barraca int
+    cod_feirante int
+    cod_produto int
+    cod_venda int
+    endereço varchar
+);
+
+create table estoque(
+    cod_estoque int
+    cod_produto varchar
+    medida varchar
+);
+
+create table venda(
+    cod_venda int
+    cod_produto int
+    cod_barraca int
+    cod_cliente int
+    quantidade int
+    valor dec
+    total dec
+);
+gay
+create table ofrncedor(
+    cod_fonecedor int
+    nome vachar(200)
+    idade int
+    celular int
+    email int 
+    endereço int
+);
+
+create table produto(
+    cod
+)
+
+</body>
+</html>

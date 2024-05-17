@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feira Facil</title> 
+</head>
+<body>
+    
+    <style>
+        html{
+            min-height: 100%;
+        }
+        body{
+            background: linear-gradient(white, rgb(152, 158, 180))
+        }
+        img{
+        position:absolute
+        left:600px
+        top:40px
+        }
+    </style>
+    
+    <a href="www.etecjk.com">Feira-Facil</a>
+    <img src="C:\xampp\htdocs\Feira-Facil\Feira-Facil\Imagens\2.png" alt="Escola tecnica" width="200" height="200">
+    <table border="1" align="center" width="500px"> 
+        <tr>
+            <th>frutas</th>
+            <th>verduras</th>
+            <th>legumes</th>
+        </tr>
+        <tr>
+            <td>maça</td>
+            <td>uva</td>
+            <td>banana</td>
+        </tr>
+        <tr>
+            <td>alface</td>
+            <td>acelga</td>
+            <td>brocolis</td>
+        </tr>
+        <tr>
+            <td>batata</td>
+            <td>cenoura</td>
+            <td>abobrinha</td>
+        </tr>
+        
+    </table>
+    <input  type="text" name="digite algo aqui" size="40"/> 
+
+   
+   
+
+</html>
